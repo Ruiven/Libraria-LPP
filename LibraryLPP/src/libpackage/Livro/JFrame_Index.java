@@ -216,7 +216,8 @@ public class JFrame_Index extends javax.swing.JFrame {
         // TODO add your handling code here:
         //new JFrame_MostraLivros().setVisible(true);
         JFrame_MostraLivros jfml = new JFrame_MostraLivros(vf);
-                
+              
+        this.dispose();
         jfml.setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
 
